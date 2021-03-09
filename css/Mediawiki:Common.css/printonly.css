@@ -1,0 +1,4 @@
+/* Show only when printing */
+@media screen, projection, handheld {
+  .printonly { display: none !important; }
+}

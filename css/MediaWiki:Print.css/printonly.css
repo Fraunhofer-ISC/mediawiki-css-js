@@ -1,0 +1,5 @@
+/* Show elements meant to be displayed when printed, use fallbacks when needed. */
+div.expand-print, div.printonly { display: block !important; }
+span.expand-print, span.printonly { display: inline !important; }
+table.collapsible tr, div.collapsible > div.body { display: block !important; }
+table.collapsible tr { display: table-row !important; }

@@ -181,4 +181,4 @@ window.onload = function() {
             var newText = $(this).text('/wiki/' + repText);
         }
     });
-});
+};

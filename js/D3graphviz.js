@@ -1,8 +1,8 @@
 /*
 Renders graphviz code inside a div element with css-class graphviz
 */
+mw.loader.using( 'jquery', function () {
 $(document).ready(function() {
-    mw.loader.using( 'jquery', function () {
     $.getScript('//d3js.org/d3.v5.min.js').done(function() {
         $.getScript('//unpkg.com/@hpcc-js/wasm@0.3.11/dist/index.min.js').done(function() {
             $.getScript('//unpkg.com/d3-graphviz@3.2.0/build/d3-graphviz.js').done(function() {
@@ -182,5 +182,5 @@ $(document).ready(function() {
             var newText = $(this).text('/wiki/' + repText);
         }
     });
-    });
+});
 });
